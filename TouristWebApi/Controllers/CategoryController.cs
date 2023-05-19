@@ -30,7 +30,7 @@ namespace TouristWebApi.Controllers
             var category = context.Categories.FirstOrDefault(x => x.CategoryId == id);
             if (category == null)
             {
-                return NotFound(id + " idye sahip kategori bulunamadi");
+                return NotFound(id + " nolu idye sahip kategori bulunamadi");
             }
             else
             {
